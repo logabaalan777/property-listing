@@ -1,6 +1,6 @@
 # 🏡 Property Listing Management System 
 
-A modern and responsive frontend for a real estate property listing system. Built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This connects to a backend API that handles authentication, property management, favorites, filtering, and property recommendations between users.
+A modern and responsive frontend for a real estate property listing system. Built using **React.js (Typescript)**, **TypeScript**, **Node.js**, **Redis** and **MongoDB**. This connects to a backend API that handles authentication, property management, favorites, filtering, and property recommendations between users.
 
 ---
 
