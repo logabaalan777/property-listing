@@ -1,6 +1,13 @@
 # 🏡 Property Listing Management System 
 
-A modern and responsive frontend for a real estate property listing system. Built using **React.js (Typescript)**, **TypeScript**, **Node.js**, **Redis** and **MongoDB**. This connects to a backend API that handles authentication, property management, favorites, filtering, and property recommendations between users.
+A modern, full-stack real estate platform for discovering, listing, and managing properties 🏘️. This application supports advanced search, user favorites, recommendations, and more!
+
+---
+
+## 🔗 Live Demos
+
+🌐 **Frontend:** [property-listing-bice-nine.vercel.app](https://property-listing-bice-nine.vercel.app)  
+⚙️ **Backend API:** [property-backend-c79o.onrender.com](https://property-backend-c79o.onrender.com)
 
 ---
 
