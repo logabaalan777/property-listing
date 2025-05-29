@@ -97,3 +97,65 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 - 🧠 **Redis** for caching
 - ⚙️ **Node.js/Express** backend handles business logic
 - 🌐 **Next.js + Tailwind** frontend with real-time interaction
+
+---
+
+## PropertyPulse in Action
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/Home.png" alt="Home Page" width="320"><br>
+        <small><b>Landing Page</b></small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectCreation.png" alt="Project Creation" width="320"><br>
+        <small><b>Filters Page</b></small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectPage.png" alt="Project Page" width="320"><br>
+        <small><b>Login Page</b></small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig.png" alt="Project Configuration" width="320"><br>
+        <small><b>Register Page</b></small>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Project Configuration" width="320"><br>
+        <small><b>Recommendations page</b></small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/LiveLogs.png" alt="Live Logs" width="320"><br>
+        <small><b>Recommend to user page</b></small>
+      </td>
+    </tr>
+    <tr>
+       <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Configuration View" width="320"><br>
+        <small><b>Favorite Page</b></small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ConfigView.png" alt="Configuration View" width="320"><br>
+        <small><b>My listing Page</b></small>
+      </td>
+    </tr>
+         <tr>
+       <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Configuration View" width="320"><br>
+        <small><b>Add New Property Page</b></small>
+      </td>
+      <td align="center">
+        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ConfigView.png" alt="Configuration View" width="320"><br>
+        <small><b>My listing Page</b></small>
+      </td>
+    </tr>
+  </table>
+  <p><i>PropertyPulse's intuitive interface provides deep insights into your projects with just a few clicks</i></p>
+</div>
+
+---
