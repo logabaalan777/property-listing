@@ -47,3 +47,47 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 
 ---
 
+## 🧭 Project Workflow
+
+### 🖼️ Overview Diagram
+
+![Flowchart](https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Presentation_Img_flow_chart.png)
+
+---
+
+### 🔁 How PropertyPulse Works
+
+1. 🏠 **Landing Page**  
+   Users land on the **PropertyPulse** homepage and can start exploring or proceed to register/login.
+
+2. 🔐 **User Authentication**  
+   - Secure authentication using **JWT** tokens.  
+   - Credentials and user data are stored in **MongoDB**.
+
+3. 🏢 **View Properties**  
+   - All users can browse through available properties.  
+   - View property details before making decisions.
+
+4. 📝 **My Listings**  
+   - Registered users can create, update, and delete their own listings.
+
+5. 🌟 **Recommendations**  
+   - Users can recommend properties.  
+   - Other users can view or delete these suggestions.
+
+6. ❤️ **Favorites**  
+   - Add properties to your favorites list with a single click.  
+   - Manage your favorites: view or remove at any time.
+
+7. 🧠 **Filtering Options**  
+   - Filter properties based on preferences like location, type, price, and more.
+
+---
+
+### 🧰 Technologies Behind the Workflow
+
+- ✅ **MongoDB** for storing user and property data
+- 🔐 **JWT** for secure login and protected routes
+- 🧠 **Redis** for caching
+- ⚙️ **Node.js/Express** backend handles business logic
+- 🌐 **Next.js + Tailwind** frontend with real-time interaction
