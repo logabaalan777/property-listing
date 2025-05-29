@@ -106,52 +106,52 @@ A modern, full-stack real estate platform for discovering, listing, and managing
   <table>
     <tr>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/Home.png" alt="Home Page" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/landing%20page.png" alt="Home Page" width="320"><br>
         <small><b>Landing Page</b></small>
       </td>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectCreation.png" alt="Project Creation" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/Filter%20Page.png" alt="Project Creation" width="320"><br>
         <small><b>Filters Page</b></small>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectPage.png" alt="Project Page" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/sign%20in%20page.png" alt="Project Page" width="320"><br>
         <small><b>Login Page</b></small>
       </td>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig.png" alt="Project Configuration" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/Register%20Page.png" alt="Project Configuration" width="320"><br>
         <small><b>Register Page</b></small>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Project Configuration" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/Recommendations%20Recieved.png" alt="Project Configuration" width="320"><br>
         <small><b>Recommendations page</b></small>
       </td>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/LiveLogs.png" alt="Live Logs" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/recommend%20to%20user.png" alt="Live Logs" width="320"><br>
         <small><b>Recommend to user page</b></small>
       </td>
     </tr>
     <tr>
        <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Configuration View" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/favorites%20page.png" alt="Configuration View" width="320"><br>
         <small><b>Favorite Page</b></small>
       </td>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ConfigView.png" alt="Configuration View" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/My%20listing%20page.png" alt="Configuration View" width="320"><br>
         <small><b>My listing Page</b></small>
       </td>
     </tr>
          <tr>
        <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ProjectConfig1.png" alt="Configuration View" width="320"><br>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/Add%20new%20Property%20Page.png" alt="Configuration View" width="320"><br>
         <small><b>Add New Property Page</b></small>
       </td>
       <td align="center">
-        <img src="https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Outputs/ConfigView.png" alt="Configuration View" width="320"><br>
-        <small><b>My listing Page</b></small>
+        <img src="https://github.com/logabaalan777/images/blob/main/assets/view%20property%20page.png" alt="Configuration View" width="320"><br>
+        <small><b>View Property Page</b></small>
       </td>
     </tr>
   </table>
