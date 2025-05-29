@@ -51,7 +51,7 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 
 ### 🖼️ Overview Diagram
 
-![Flowchart](https://github.com/logabaalan777/Call-Agent-AI-Groclake-Agentathon/blob/main/Presentation_Img_flow_chart.png)
+![Flowchart](https://github.com/logabaalan777/property-listing/blob/main/propertypulse.png)
 
 ---
 
