@@ -11,7 +11,7 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 
 ## 🎬 **Demo Video**  
 
-[![Property Pulse Demo](http://github.com/logabaalan777/images/blob/main/assets/Thumbnail%20image.png)](https://www.youtube.com/watch?v=gCSVagOB45s)
+[![Watch the demo](https://img.youtube.com/vi/gCSVagOB45s/0.jpg)](https://www.youtube.com/watch?v=gCSVagOB45s)
 
 ## 📝 **API's documentaion**  
 📖 [Read Here](https://drive.google.com/file/d/18aJSBbLOZ8BhjQ9qLntVNXApXLZ3Ico2/view?usp=sharing)
