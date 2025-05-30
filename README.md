@@ -38,13 +38,14 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 ### 🖥️ Frontend
 
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React + TypeScript](https://img.shields.io/badge/React+TypeScript-20232A?style=flat&logo=react&logoColor=61DAFB&labelColor=3178C6)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
 ![React Toastify](https://img.shields.io/badge/React_Toastify-333333?logo=react&logoColor=61DAFB)
 
 ### 🛠️ Backend
 
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
