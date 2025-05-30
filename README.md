@@ -160,3 +160,27 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 </div>
 
 ---
+
+## 🙌 Final Note
+
+Thank you for visiting **PropertyPulse** 🏠 — a modern, full-featured property listing and recommendation platform.  
+I hope you find the project useful, insightful, or even inspiring!
+
+If you have any feedback, ideas, or would like to collaborate, please don't hesitate to reach out! 🚀
+
+---
+
+## 👨‍💻 Author
+
+### Logabaalan R S
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Logabaalan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/logabaalan-r-s-94ba82259/)
+[![GitHub](https://img.shields.io/badge/GitHub-Logabaalan-black?style=flat&logo=github)](https://github.com/logabaalan777)
+
+---
+
+<p align="center">
+  Built with ❤️ using Next.js, Node.js, MongoDB, Redis & Tailwind CSS
+</p>
+
+---
