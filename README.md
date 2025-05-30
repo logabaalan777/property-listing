@@ -37,7 +37,7 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 
 ### 🖥️ Frontend
 
-![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)
+![vite](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
