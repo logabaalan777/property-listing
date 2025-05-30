@@ -11,7 +11,6 @@ export const getProperties = async (req: Request, res: Response) => {
   try {
     const filters: any = {};
 
-    // Pagination defaults
     const page = parseInt(req.query.page as string) || 1;
     const limit = parseInt(req.query.limit as string) || 10;
     const skip = (page - 1) * limit;
@@ -79,20 +78,17 @@ export const getPropertyById = async (req: Request, res: Response) => {
     const propertyId = req.params.id;
     const cacheKey = getPropertyCacheKey(propertyId);
 
-    // Try Redis cache
     const cachedProperty = await redisClient.get(cacheKey);
     if (cachedProperty) {
       return res.status(200).json(JSON.parse(cachedProperty));
     }
 
-    // Query by `id` field (not _id)
     const property = await Property.findOne({ id: propertyId });
 
     if (!property) {
       return res.status(404).json({ message: 'Property not found' });
     }
 
-    // Cache for 10 minutes
     await redisClient.setEx(cacheKey, 600, JSON.stringify(property));
 
     res.status(200).json(property);
@@ -109,7 +105,6 @@ export const createProperty = async (req: AuthRequest, res: Response) => {
     const newProperty = new Property({ ...req.body, createdBy });
     const saved = await newProperty.save();
 
-    // Invalidate all properties cache because data changed
     await redisClient.flushAll();
 
     res.status(201).json(saved);
@@ -138,7 +133,6 @@ export const updateProperty = async (req: AuthRequest, res: Response) => {
 };
 
 
-// Delete Property 
 export const deleteProperty = async (req: AuthRequest, res: Response) => {
   try {
     const property = await Property.findOne({ id: req.params.id });
@@ -148,7 +142,6 @@ export const deleteProperty = async (req: AuthRequest, res: Response) => {
 
     await Property.deleteOne({ id: req.params.id });
 
-    // Invalidate cache
     await redisClient.del(getPropertyCacheKey(req.params.id));
     await redisClient.flushAll();
 
