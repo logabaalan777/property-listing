@@ -12,7 +12,6 @@ const favoriteSchema = new Schema<IFavorite>({
   createdAt: { type: Date, default: Date.now },
 });
 
-// To ensure user can't favorite same property multiple times
 favoriteSchema.index({ userId: 1, propertyId: 1 }, { unique: true });
 
 const Favorite = mongoose.model<IFavorite>('Favorite', favoriteSchema);
