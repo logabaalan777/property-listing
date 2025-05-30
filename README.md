@@ -10,7 +10,7 @@ A modern, full-stack real estate platform for discovering, listing, and managing
 ⚙️ **Backend API:** [property-backend-c79o.onrender.com](https://property-backend-c79o.onrender.com)
 
 ## 🎬 **Demo Video**  
-[![Watch the Demo](https://github.com/logabaalan777/images/blob/main/assets/landing%20page.png)](https://github.com/logabaalan777/images/blob/main/assets/Property%20Pulse%20-%20demo%20video.mp4)
+[![Watch the Demo](https://github.com/logabaalan777/images/blob/main/assets/landing%20page.png)](https://drive.google.com/file/d/1fmAso_d6BpVrk0qnD6aHQI1J2nrhnkLz/view?usp=drive_link)
 
 ## 📝 **API's documentaion**  
 📖 [Read Here](https://drive.google.com/file/d/18aJSBbLOZ8BhjQ9qLntVNXApXLZ3Ico2/view?usp=sharing)
