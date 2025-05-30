@@ -3,12 +3,10 @@ import User from '../models/User';
 import Property from '../models/Property';
 import Recommendation from '../models/Recommendation';
 import { AuthRequest } from '../middleware/authmiddleware';
-import redisClient from '../config/redis'; // adjust path to your Redis client
+import redisClient from '../config/redis'; 
 
-// Helper cache key generator
 const getRecommendationsCacheKey = (userId: string) => `recommendations:${userId}`;
 
-// Recommend property to another user by email
 export const recommendProperty = async (req: AuthRequest, res: Response) => {
   const { toEmail, propertyId, message } = req.body;
 
@@ -26,13 +24,12 @@ export const recommendProperty = async (req: AuthRequest, res: Response) => {
     const recommendation = new Recommendation({
       fromUserId: req.user?.userId,
       toUserId: toUser._id,
-      propertyId: property._id, // 👈 saving MongoDB ID internally
-      message, // 👈 save optional message
+      propertyId: property._id, 
+      message, 
     });
 
     await recommendation.save();
 
-    // Invalidate cache
     await redisClient.del(getRecommendationsCacheKey(toUser._id.toString()));
 
     res.status(201).json({ message: 'Property recommended successfully', recommendation });
@@ -41,7 +38,6 @@ export const recommendProperty = async (req: AuthRequest, res: Response) => {
   }
 };
 
-// Get recommendations received by logged-in user
 export const getReceivedRecommendations = async (req: AuthRequest, res: Response) => {
   try {
     const userId = req.user?.userId!;
