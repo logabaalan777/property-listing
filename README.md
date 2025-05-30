@@ -180,7 +180,7 @@ If you have any feedback, ideas, or would like to collaborate, please don't hesi
 ---
 
 <p align="center">
-  Built with ❤️ using Next.js, Node.js, MongoDB, Redis & Tailwind CSS
+  Built with ❤️ using Typescript, Node.js, MongoDB, Redis, React+Typescript & Tailwind CSS
 </p>
 
 ---
