@@ -5,10 +5,8 @@ import redisClient from '../config/redis';
 import { getPropertiesCacheKey } from '../utils/cacheKeys';
 import Property from '../models/Property';
 
-// Cache expiry in seconds (e.g., 5 minutes)
 const CACHE_EXPIRY = 300;
 
-// Add property to favorites
 export const addFavorite = async (req: AuthRequest, res: Response) => {
   try {
     const userId = req.user?.userId!;
@@ -20,13 +18,11 @@ export const addFavorite = async (req: AuthRequest, res: Response) => {
       return res.status(404).json({ message: 'Property not found' });
     }
 
-    // 🛑 Check if already in favorites
     const existing = await Favorite.findOne({ userId, propertyId: property._id });
     if (existing) {
       return res.status(400).json({ message: 'Property already in favorites' });
     }
 
-    // ✅ Save favorite using MongoDB _id
     const favorite = new Favorite({ userId, propertyId: property._id });
     await favorite.save();
 
@@ -39,25 +35,21 @@ export const addFavorite = async (req: AuthRequest, res: Response) => {
   }
 };
 
-// Remove property from favorites
 export const removeFavorite = async (req: AuthRequest, res: Response) => {
   try {
     const userId = req.user?.userId!;
     const { propertyId } = req.params; // propertyId is like "PROP1037"
 
-    // 🔍 Find the property by custom ID
     const property = await Property.findOne({ id: propertyId });
     if (!property) {
       return res.status(404).json({ message: 'Property not found' });
     }
 
-    // 🗑 Delete the favorite using the actual _id
     const deleted = await Favorite.findOneAndDelete({ userId, propertyId: property._id });
     if (!deleted) {
       return res.status(404).json({ message: 'Favorite not found' });
     }
 
-    // ♻️ Invalidate cache
     await redisClient.del(`favorites:${userId}`);
 
     res.status(200).json({ message: 'Property removed from favorites' });
@@ -66,7 +58,6 @@ export const removeFavorite = async (req: AuthRequest, res: Response) => {
   }
 };
 
-// Get all favorite properties for logged-in user with Redis cache
 export const getFavorites = async (req: AuthRequest, res: Response) => {
   try {
     const userId = req.user?.userId!;
@@ -108,11 +99,9 @@ export const checkIsFavorite = async (req: AuthRequest, res: Response) => {
         return res.status(404).json({ message: 'Property not found' });
       }
 
-      // Store in Redis for 10 minutes
       await redisClient.setEx(cacheKey, 600, JSON.stringify(property));
     }
 
-    // Now check if the property is favorited by this user
     const exists = await Favorite.exists({ userId, propertyId: property._id });
 
     res.status(200).json({ isFavorite: !!exists });
